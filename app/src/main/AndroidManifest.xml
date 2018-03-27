@@ -107,14 +107,14 @@
         android:hardwareAccelerated="true"
         android:label="@string/app_name" >
         <meta-data
-            android:name="app_type"
-            android:value="nightly" />
+            android:name="app_typ"
+            android:value="norma" />
         <meta-data
-            android:name="app_channel"
-            android:value="trunk" />
+            android:name="app_channe"
+            android:value="trun" />
         <meta-data
-            android:name="com.google.android.backup.api_key"
-            android:value="AEdPqrEAAAAIL5x8Klvg-Y8nV4j4PNSy2JH6yQZ49yKbrqKJAw" />
+            android:name="om.google.android.backup.api_key"
+            android:value="EdPqrEAAAAIL5x8Klvg-Y8nV4j4PNSy2JH6yQZ49yKbrqKJAw" />
 
         <!--
         Samsung multiview support
@@ -130,7 +130,7 @@
             android:name="com.csipsimple.ui.SipHome"
             android:label="@string/app_name"
             android:launchMode="singleTask"
-            android:theme="@style/DarkTheme"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
             android:uiOptions="splitActionBarWhenNarrow" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -173,7 +173,7 @@
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:targetActivity="com.csipsimple.ui.SipHome"
-            android:theme="@style/DarkTheme"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
             android:uiOptions="splitActionBarWhenNarrow" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -249,7 +249,7 @@
         <!-- Main ui -->
         <activity
             android:name="com.csipsimple.ui.calllog.CallLogDetailsActivity"
-            android:theme="@style/DarkTheme" />
+            android:theme="@style/Theme.Sherlock.Light" />
 
         <!-- Accounts -->
         <activity
@@ -275,7 +275,9 @@
             android:enabled="@bool/use_hc_prefs"
             android:label="@string/prefs"
             android:permission="android.permission.CONFIGURE_SIP"
-            android:theme="@style/DarkTheme" >
+            android:theme="@style/Theme.AppCompat.Light"
+
+            >
             <intent-filter>
                 <action android:name="com.csipsimple.ui.action.PREFS_GLOBAL" />
 

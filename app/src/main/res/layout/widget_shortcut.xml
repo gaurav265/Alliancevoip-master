@@ -33,7 +33,7 @@
         android:contentDescription="@string/empty_description"
         android:padding="5dip"
         android:scaleType="centerInside"
-        android:src="@drawable/ic_ab_favourites_holo_dark" />
+        android:src="@android:color/background_dark" />
 
     <TextView
         android:id="@+id/txt_account"
@@ -42,7 +42,6 @@
         android:layout_margin="5dip"
         android:ellipsize="end"
         android:gravity="center"
-        android:text="@string/favorites_tab_name_text"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="@android:color/white" />
 

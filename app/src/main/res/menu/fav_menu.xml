@@ -4,14 +4,17 @@
     <item
         android:id="@+id/set_group"
         android:showAsAction="never"
-        android:title="@string/set_android_group"/>
+        android:title="@string/set_android_group"
+        android:visibility="gone"/>
     <item
         android:id="@+id/set_sip_data"
         android:showAsAction="never"
-        android:title="@string/set_sip_data"/>
+        android:title="@string/set_sip_data"
+        android:visibility="gone"/>
     <item
         android:id="@+id/share_presence"
         android:showAsAction="never"
-        android:title="@string/activate_presence_sharing"/>
+        android:title="@string/activate_presence_sharing"
+        android:visibility="gone"/>
 
 </menu>

@@ -19,9 +19,9 @@
 <!-- 	Parts of this file are extract from the android project distributed under Apache license relicensed in GPLv3 -->
 <resources>
 
-    <color name="account_inactive">#FF646464</color>
-    <color name="account_unregistered">#FFFFC200</color>
-    <color name="account_valid">#84e300</color>
+    <color name="account_inactive">#e25d04</color>
+    <color name="account_unregistered">#04cfe2</color>
+    <color name="account_valid">#0317c4</color>
     <color name="account_error">#FFFF0F00</color>
 
 </resources>

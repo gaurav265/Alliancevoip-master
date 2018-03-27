@@ -18,15 +18,15 @@
 <resources>
 
     <string name="w_common_display_name">Account name</string>
-    <string name="w_common_display_name_desc">Display name for this account</string>
+    <string name="w_common_display_name_desc">Display name</string>
     <string name="w_common_username">User name</string>
-    <string name="w_common_username_desc">Sip account login (do not write the @sip.server)</string>
+    <string name="w_common_username_desc">Sip account login</string>
     <string name="w_common_phone_number">Phone number</string>
-    <string name="w_common_phone_number_desc">Sip phone number given by your provider</string>
+    <string name="w_common_phone_number_desc">Sip phone number given by Alliance</string>
     <string name="w_common_password">Password</string>
     <string name="w_common_password_desc">Password for your account</string>
     <string name="w_common_server">Server</string>
-    <string name="w_common_server_desc">SIP server domain/IP[:port]</string>
+    <string name="w_common_server_desc">SIP server domain</string>
     <string name="create_account">Create account</string>
     <string name="already_have_account">I already have an account</string>
     <string name="first_name">First name</string>

@@ -29,7 +29,8 @@
         android:layout_weight="1"
         android:antialias="true"
         android:contentDescription="@string/empty_description"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        android:visibility="gone"/>
 
     <TextView
         android:id="@+id/quickaction_text"
@@ -39,6 +40,7 @@
         android:layout_marginTop="2dp"
         android:layout_weight="0"
         android:textColor="#ffeeeeee"
-        android:textSize="12dp" />
+        android:textSize="12dp"
+        android:visibility="gone"/>
 
 </merge>

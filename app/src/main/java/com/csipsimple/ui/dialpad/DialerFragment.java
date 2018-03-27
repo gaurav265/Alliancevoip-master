@@ -620,7 +620,7 @@ public class DialerFragment extends SherlockFragment implements OnClickListener,
     }
 
     // Options
-    @Override
+   /* @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
 
@@ -636,7 +636,7 @@ public class DialerFragment extends SherlockFragment implements OnClickListener,
                 return true;
             }
         });
-    }
+    }*/
 
     @Override
     public void placeCall() {

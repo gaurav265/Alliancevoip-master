@@ -29,5 +29,6 @@
     android:paddingLeft="10dip"
     android:paddingRight="6dip"
     android:paddingTop="6dip"
-    android:textAppearance="?android:attr/textAppearanceLarge"
-    android:textStyle="bold" />
+    android:textAppearance="@style/TextAppearance.Sherlock.Small"
+
+    />

@@ -23,7 +23,7 @@
     <string name="unable_to_download_file">Unable to download file</string>
     <string name="connection_not_valid">Selected network route not allowed with current settings you have setup</string>
     <string name="invalid_sip_uri">Sip uri is invalid for call</string>
-    <string name="accounts">Accounts</string>
+    <string name="accounts">Account Configuration</string>
     <string name="other_accounts">Other accounts</string>
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
@@ -31,8 +31,8 @@
     <string name="deactivate_account">Deactivate account</string>
     <string name="delete_account">Delete account</string>
     <string name="modify_account">Modify account</string>
-    <string name="add_account">Add account</string>
-    <string name="choose_wizard">Choose wizard</string>
+    <string name="add_account">Add New Account</string>
+    <string name="choose_wizard">Select </string>
     <string name="use">Use :</string>
     <string name="use_pstn">Use mobile</string>
     <string name="ongoing_call">Call in Progress</string>

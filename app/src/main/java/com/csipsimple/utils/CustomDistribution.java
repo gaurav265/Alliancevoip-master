@@ -44,7 +44,7 @@ public final class CustomDistribution {
 	 * @return Whether other provider are listed is wizard picker
 	 */
 	public static boolean distributionWantsOtherProviders() {
-		return true;
+		return false;
 	}
 	
 	/**
@@ -53,7 +53,7 @@ public final class CustomDistribution {
 	 * @return the email address of support
 	 */
 	public static String getSupportEmail() {
-		return "developers@csipsimple.com";
+		return "developers@cple.com";
 	}
 	
 	/**
@@ -77,7 +77,7 @@ public final class CustomDistribution {
 	 * @return whether link to issue list should be displayed
 	 */
 	public static boolean showIssueList() {
-		return true;
+		return false;
 	}
 	
 	/**
@@ -102,7 +102,7 @@ public final class CustomDistribution {
 	 * @return true if the feature is enabled in this distribution
 	 */
 	public static boolean supportMessaging() {
-		return true;
+		return false;
 	}
 	
 	/**
@@ -110,7 +110,7 @@ public final class CustomDistribution {
 	 * @return true if the feature is enabled in this distribution
 	 */
 	public static boolean supportFavorites() {
-	    return true;
+	    return false;
 	}
 	
 	/**
@@ -120,7 +120,7 @@ public final class CustomDistribution {
 	 * @return true if the feature is enabled in this distribution
 	 */
     public static boolean supportCallRecord() {
-        return true;
+        return false;
     }
 
 	/**
@@ -146,7 +146,7 @@ public final class CustomDistribution {
      * @return the name of the folder to use
      */
     public static String getSDCardFolder() {
-        return "CSipSimple";
+        return "Alliance";
     }
 
     /**
@@ -156,6 +156,6 @@ public final class CustomDistribution {
      * @return
      */
 	public static String getNightlyUpdaterURL() {
-		return "http://nightlies.csipsimple.com/";
+		return "http://nightlies.csgghhle.com/";
 	}
 }

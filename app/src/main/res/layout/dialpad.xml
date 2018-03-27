@@ -20,13 +20,15 @@
     along with CSipSimple.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1" >
+        android:layout_weight="1"
+        android:background="@android:color/transparent">
 
         <ImageButton
             android:id="@+id/button1"
@@ -50,7 +52,8 @@
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1" >
+        android:layout_weight="1"
+        android:background="@android:color/transparent">
 
         <ImageButton
             android:id="@+id/button4"
@@ -98,7 +101,8 @@
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1" >
+        android:layout_weight="1"
+        android:background="@android:color/transparent">
 
         <ImageButton
             android:id="@+id/buttonstar"

@@ -101,7 +101,7 @@ public class DialerCallBar extends LinearLayout implements OnClickListener, OnLo
      */
     public void setEnabled(boolean enabled) {
         findViewById(R.id.dialButton).setEnabled(enabled);
-        findViewById(R.id.dialVideoButton).setEnabled(enabled);
+        findViewById(R.id.dialVideoButton).setEnabled(false);
         findViewById(R.id.deleteButton).setEnabled(enabled);
     }
     

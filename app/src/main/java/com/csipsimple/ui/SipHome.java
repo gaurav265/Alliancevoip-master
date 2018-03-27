@@ -779,20 +779,20 @@ public class SipHome extends SherlockFragmentActivity implements OnWarningChange
             }
             menu.add(Menu.NONE, ACCOUNTS_MENU, Menu.NONE,
                     (distribWizard == null) ? R.string.accounts : R.string.other_accounts)
-                    .setIcon(R.drawable.ic_menu_account_list)
+           //         .setIcon(R.drawable.ic_menu_account_list)
                     .setAlphabeticShortcut('a')
                     .setShowAsAction( accountRoom );
         }
-        menu.add(Menu.NONE, PARAMS_MENU, Menu.NONE, R.string.prefs)
-                .setIcon(android.R.drawable.ic_menu_preferences)
-                .setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
+     //   menu.add(Menu.NONE, PARAMS_MENU, Menu.NONE, R.string.prefs)
+       //         .setIcon(android.R.drawable.ic_menu_preferences)
+         //       .setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
 
-        menu.add(Menu.NONE, HELP_MENU, Menu.NONE, R.string.help)
-                .setIcon(android.R.drawable.ic_menu_help)
-                .setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
-        menu.add(Menu.NONE, CLOSE_MENU, Menu.NONE, R.string.menu_disconnect)
-                .setIcon(R.drawable.ic_lock_power_off)
-                .setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
+       // menu.add(Menu.NONE, HELP_MENU, Menu.NONE, R.string.help)
+      //          .setIcon(android.R.drawable.ic_menu_help)
+         //       .setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
+       // menu.add(Menu.NONE, CLOSE_MENU, Menu.NONE, R.string.menu_disconnect)
+       //         .setIcon(R.drawable.ic_lock_power_off)
+        //        .setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
 
         return super.onCreateOptionsMenu(menu);
     }

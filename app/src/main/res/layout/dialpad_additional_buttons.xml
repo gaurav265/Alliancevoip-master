@@ -24,17 +24,19 @@
         android:layout_height="match_parent"
         android:layout_gravity="center_vertical"
         android:layout_weight="0.30"
-        android:background="?attr/actionBarItemBackground"
+        android:background="@android:color/background_light"
         android:contentDescription="@string/description_dial_video_button"
         android:src="@drawable/ic_prefs_media_video"
-        android:state_enabled="false" />
+        android:state_enabled="false"
+        android:visibility="gone" />
 
     <View
         android:id="@+id/divider1"
         android:layout_width="1dip"
         android:layout_height="24dip"
         android:layout_gravity="center_vertical"
-        android:background="@drawable/abs__list_divider_holo_dark" />
+        android:background="@android:color/transparent"
+        android:foreground="@android:color/background_light" />
 
     <ImageButton
         android:id="@+id/dialButton"
@@ -42,7 +44,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="center_vertical"
         android:layout_weight="0.40"
-        android:background="@drawable/btn_call"
+        android:background="@color/abs__bright_foreground_disabled_holo_dark"
         android:contentDescription="@string/description_dial_button"
         android:src="@drawable/ic_in_call_touch_answer"
         android:state_enabled="false" />
@@ -52,7 +54,7 @@
         android:layout_width="1dip"
         android:layout_height="24dip"
         android:layout_gravity="center_vertical"
-        android:background="@drawable/abs__list_divider_holo_dark" />
+        android:background="@android:color/transparent" />
 
     <ImageButton
         android:id="@+id/deleteButton"
@@ -60,7 +62,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="center_vertical"
         android:layout_weight="0.30"
-        android:background="?attr/actionBarItemBackground"
+        android:background="@color/abs__bright_foreground_disabled_holo_dark"
         android:contentDescription="@string/description_delete_button"
         android:src="@drawable/ic_dial_action_delete"
         android:state_enabled="false" />

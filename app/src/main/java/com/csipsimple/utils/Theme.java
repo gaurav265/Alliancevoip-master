@@ -21,6 +21,7 @@
 
 package com.csipsimple.utils;
 
+import android.annotation.TargetApi;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -34,6 +35,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.LayerDrawable;
 import android.graphics.drawable.StateListDrawable;
+import android.os.Build;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
@@ -138,7 +140,8 @@ public class Theme {
         return null;
     }
 
-	public void applyBackgroundDrawable(View button, String res) {
+	@TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+    public void applyBackgroundDrawable(View button, String res) {
 		Drawable d = getDrawableResource(res);
 		if(d != null) {
 		   // UtilityWrapper.getInstance().setBackgroundDrawable(button, d);

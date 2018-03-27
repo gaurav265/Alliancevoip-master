@@ -3,9 +3,9 @@
 
     <style name="DarkTheme" parent="Theme.Sherlock" />
 
-    <style name="ButtonBar" parent="@android:style/Holo.ButtonBar" />
+    <style name="ButtonBar" parent="@android:style/ButtonBar" />
 
-    <style name="ButtonBarButton" parent="@android:style/Widget.Holo.Button.Borderless" />
+    <style name="ButtonBarButton" parent="@android:style/Theme.Light" />
 
     <style name="ButtonBar.AlertDialog" parent="@android:style/Holo.ButtonBar.AlertDialog" />
 

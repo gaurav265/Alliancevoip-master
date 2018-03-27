@@ -18,7 +18,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <style name="list_left_column">
-        <item name="android:layout_width">68dip</item>
+        <item name="android:layout_width">70dip</item>
         <item name="android:layout_height">68dip</item>
     </style>
 
@@ -39,7 +39,7 @@
     <!-- Toggle buttons in the in-call onscreen touch UI. -->
 
     <style name="DialtactsDialpadButtonStyle">
-        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_weight">1</item>
         <item name="android:background">?attr/actionBarItemBackground</item>
@@ -74,7 +74,7 @@
         <item name="android:layout_margin">5dp</item>
     </style>
 
-    <style name="DarkTheme" parent="Theme.Sherlock"></style>
+    <style name="DarkTheme" parent="Theme.AppCompat.Light"></style>
 
     <style name="DarkTheme.Dialog" parent="Theme.Sherlock.Light.DarkActionBar">
 
@@ -87,7 +87,7 @@
         -->
     </style>
 
-    <style name="DarkTheme.NoTitle" parent="Theme.Sherlock.NoActionBar">
+    <style name="DarkTheme.NoTitle" parent="Theme.Sherlock.Light">
         <item name="actionBarItemBackground">@drawable/abs__item_background_holo_dark</item>
     </style>
 
@@ -106,5 +106,9 @@
     <style name="ButtonBarButton" parent="@android:style/Widget.Button" />
 
     <style name="ButtonBar.AlertDialog" parent="@android:style/ButtonBar" />
+
+    <style name="Theme.AppCompat">th</style>
+
+    <style name="Theme.AppCompat.Light">them</style>
 
 </resources>
